@@ -1,0 +1,9 @@
+.zoom-container img {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Powiększenie po kliknięciu */
+#zoom:target img {
+    transform: scale(2);
+}
